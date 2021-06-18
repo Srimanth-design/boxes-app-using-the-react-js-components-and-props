@@ -1,0 +1,27 @@
+lockfileVersion: 5.3
+
+specifiers:
+  js: ^0.1.0
+
+dependencies:
+  js: 0.1.0
+
+packages:
+
+  /commander/1.1.1:
+    resolution: {integrity: sha1-UNFlGGiuYOzP8KLZ80WVN2vGsEE=}
+    engines: {node: '>= 0.6.x'}
+    dependencies:
+      keypress: 0.1.0
+    dev: false
+
+  /js/0.1.0:
+    resolution: {integrity: sha1-4dCv1V6jnCso2jBOgUPq8sEz82Y=}
+    hasBin: true
+    dependencies:
+      commander: 1.1.1
+    dev: false
+
+  /keypress/0.1.0:
+    resolution: {integrity: sha1-SjGI1CkbZrT2XtuZ+AaqmuKTWSo=}
+    dev: false
